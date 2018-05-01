@@ -1,0 +1,12 @@
+{
+  "mapping_en": {
+    "/Greeting": "Hello",
+    "/super.Greeting": "service.Hello"
+  },
+  "mapping_fr": {
+    "/Greeting": "Bonjour",
+    "/super.Greeting": "service.Bonjour",
+    "/Thanks": "Merci",
+    "/super.Thanks": "service.Merci"
+  }
+}
