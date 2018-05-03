@@ -9,7 +9,9 @@ public class Frontend {
 	
 	@Autowired
 	Calculator calculator;
-
+/*
+ * 계산 작업 수행
+ * */
 	public void run() {
 		System.out.println("Enter 2 numbers like 'a b' :");
 		Argument argument = argumentResolver.resolve(System.in);

@@ -33,9 +33,9 @@ public class App2 {
 			//int b = input.nextInt();
 			
 			ArgumentResolver argumentResolver = context.getBean(ArgumentResolver.class);
-			Argument argument = argumentResolver.resolve(System.in);// 생성자를 통한 a, b 변수 생성
+			Argument argument = argumentResolver.resolve(System.in);// 인자 받기
 			Calculator calculator = context.getBean(Calculator.class);
-			int result = calculator.calc(argument.getA(),argument.getB() );// a, b 변수를 get         
+			int result = calculator.calc(argument.getA(),argument.getB() );// 계산하기        
 			System.out.println("result ="+result);
 		}
 	}
