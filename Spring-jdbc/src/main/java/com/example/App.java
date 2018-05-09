@@ -8,7 +8,7 @@ import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.jdbc.core.namedparam.SqlParameterSource;
 
-@EnableAutoConfiguration
+@EnableAutoConfiguration//->자동설정 어노테이션 
 public class App implements CommandLineRunner {
 	
 	@Autowired
