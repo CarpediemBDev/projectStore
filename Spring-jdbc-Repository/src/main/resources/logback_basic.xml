@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<include resource="org/springframework/boot/logging/logback/base.xml"/><!-- 스프링부트의  이미설정된 기본값 설정  -->
+	<logger name = "jdbc" level="OFF"/> <!-- sql 로그외에는 off 설정  -->
+	<logger name = "jdbc.sqltiming" level="DEVUG"/><!-- 로그레벨을 debug 형식) sql 문 +실행시간  -->
+</configuration>
